@@ -1,0 +1,34 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d1/d11/structnil_1_1crypto3_1_1stream_1_1detail_1_1basic__functions.html" title=" " alt="" coords="5,669,204,710"/>
+<area shape="rect" id="node2" href="$d1/d68/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__policy.html" title=" " alt="" coords="271,5,425,61"/>
+<area shape="rect" id="node4" href="$d1/d68/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__policy.html" title=" " alt="" coords="271,85,425,141"/>
+<area shape="rect" id="node6" href="$d1/d68/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__policy.html" title=" " alt="" coords="271,165,425,221"/>
+<area shape="rect" id="node8" href="$d1/d68/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__policy.html" title=" " alt="" coords="271,245,425,301"/>
+<area shape="rect" id="node10" href="$d1/d68/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__policy.html" title=" " alt="" coords="268,325,428,381"/>
+<area shape="rect" id="node12" href="$d1/d68/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__policy.html" title=" " alt="" coords="268,405,428,461"/>
+<area shape="rect" id="node14" href="$d1/d68/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__policy.html" title=" " alt="" coords="257,485,439,541"/>
+<area shape="rect" id="node16" href="$d1/d68/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__policy.html" title=" " alt="" coords="259,566,437,637"/>
+<area shape="rect" id="node17" href="$d0/dc3/structnil_1_1crypto3_1_1stream_1_1detail_1_1ctr__policy.html" title=" " alt="" coords="266,661,430,717"/>
+<area shape="rect" id="node19" href="$d7/da6/structnil_1_1crypto3_1_1stream_1_1detail_1_1rc4__policy.html" title=" " alt="" coords="252,741,444,797"/>
+<area shape="rect" id="node20" href="$da/dd5/structnil_1_1crypto3_1_1stream_1_1detail_1_1salsa20__policy.html" title=" " alt="" coords="259,822,437,893"/>
+<area shape="rect" id="node21" href="$d7/da6/structnil_1_1crypto3_1_1stream_1_1detail_1_1rc4__policy.html" title=" " alt="" coords="280,917,416,973"/>
+<area shape="rect" id="node23" href="$da/dd5/structnil_1_1crypto3_1_1stream_1_1detail_1_1salsa20__policy.html" title=" " alt="" coords="270,997,426,1053"/>
+<area shape="rect" id="node25" href="$da/dd5/structnil_1_1crypto3_1_1stream_1_1detail_1_1salsa20__policy.html" title=" " alt="" coords="270,1077,426,1133"/>
+<area shape="rect" id="node27" href="$da/dd5/structnil_1_1crypto3_1_1stream_1_1detail_1_1salsa20__policy.html" title=" " alt="" coords="270,1157,426,1213"/>
+<area shape="rect" id="node29" href="$da/dd5/structnil_1_1crypto3_1_1stream_1_1detail_1_1salsa20__policy.html" title=" " alt="" coords="270,1237,426,1293"/>
+<area shape="rect" id="node31" href="$da/dd5/structnil_1_1crypto3_1_1stream_1_1detail_1_1salsa20__policy.html" title=" " alt="" coords="253,1317,443,1373"/>
+<area shape="rect" id="node3" href="$d4/d39/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__functions_3_01_round_00_0164_00_01128_01_4.html" title=" " alt="" coords="501,5,673,61"/>
+<area shape="rect" id="node5" href="$d1/dc8/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__functions_3_01_round_00_0164_00_01256_01_4.html" title=" " alt="" coords="501,85,673,141"/>
+<area shape="rect" id="node7" href="$df/dad/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__functions_3_01_round_00_0196_00_01128_01_4.html" title=" " alt="" coords="501,165,673,221"/>
+<area shape="rect" id="node9" href="$da/d50/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__functions_3_01_round_00_0196_00_01256_01_4.html" title=" " alt="" coords="501,245,673,301"/>
+<area shape="rect" id="node11" href="$dd/da8/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__functions_3_01_round_00_01_i_v_size_00_01128_01_4.html" title=" " alt="" coords="501,325,673,381"/>
+<area shape="rect" id="node13" href="$de/dff/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__functions_3_01_round_00_01_i_v_size_00_01256_01_4.html" title=" " alt="" coords="501,405,673,461"/>
+<area shape="rect" id="node15" href="$db/d35/structnil_1_1crypto3_1_1stream_1_1detail_1_1chacha__functions.html" title=" " alt="" coords="495,485,678,541"/>
+<area shape="rect" id="node18" href="$d5/d8a/structnil_1_1crypto3_1_1stream_1_1detail_1_1ctr__functions.html" title=" " alt="" coords="505,661,669,717"/>
+<area shape="rect" id="node22" href="$d7/dca/structnil_1_1crypto3_1_1stream_1_1detail_1_1rc4__functions.html" title=" " alt="" coords="513,917,661,973"/>
+<area shape="rect" id="node24" href="$dd/d0c/structnil_1_1crypto3_1_1stream_1_1detail_1_1salsa20__functions_3_0164_00_01128_00_01_rounds_01_4.html" title=" " alt="" coords="499,997,675,1053"/>
+<area shape="rect" id="node26" href="$d7/d89/structnil_1_1crypto3_1_1stream_1_1detail_1_1salsa20__functions_3_0164_00_01256_00_01_rounds_01_4.html" title=" " alt="" coords="499,1077,675,1133"/>
+<area shape="rect" id="node28" href="$dc/d50/structnil_1_1crypto3_1_1stream_1_1detail_1_1salsa20__functions_3_0196_00_01128_00_01_rounds_01_4.html" title=" " alt="" coords="499,1157,675,1213"/>
+<area shape="rect" id="node30" href="$dd/d90/structnil_1_1crypto3_1_1stream_1_1detail_1_1salsa20__functions_3_0196_00_01256_00_01_rounds_01_4.html" title=" " alt="" coords="499,1237,675,1293"/>
+<area shape="rect" id="node32" href="$d4/d37/structnil_1_1crypto3_1_1stream_1_1detail_1_1salsa20__functions.html" title=" " alt="" coords="492,1317,681,1373"/>
+</map>

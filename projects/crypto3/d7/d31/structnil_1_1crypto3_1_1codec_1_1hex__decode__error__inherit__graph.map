@@ -1,0 +1,7 @@
+<map id="nil::crypto3::codec::hex_decode_error" name="nil::crypto3::codec::hex_decode_error">
+<area shape="rect" id="node1" title="Base exception class for all hex decoding errors." alt="" coords="80,80,217,121"/>
+<area shape="rect" id="node4" href="$d5/d9c/structnil_1_1crypto3_1_1codec_1_1non__hex__input.html" title="Thrown when a non&#45;hex value (0&#45;9, A&#45;F) encountered when decoding. Contains the offending character." alt="" coords="5,169,135,211"/>
+<area shape="rect" id="node5" href="$d4/d1e/structnil_1_1crypto3_1_1codec_1_1not__enough__input.html" title="Thrown when the input sequence unexpectedly ends." alt="" coords="159,169,295,211"/>
+<area shape="rect" id="node2" title=" " alt="" coords="21,5,140,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="165,5,269,32"/>
+</map>

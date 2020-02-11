@@ -42,7 +42,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-/*    content: "\f005";*/
+    /*    content: "\f005";*/
     content: "=";
     display: inline-block;
     position: relative;
@@ -130,6 +130,7 @@ header .intro-text .skills {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        float: initial;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -138,7 +139,12 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        float: initial;
     }
+}
+
+.navbar-brand {
+    padding: 0px;
 }
 
 .navbar {
@@ -193,6 +199,12 @@ section.success h2 {
     }
 }
 
+@media(min-width:767px) {
+    #projects .projects-item {
+        margin: 35px 5px 0px 5px;
+    }
+}
+
 #projects .panel {
     padding-left: 0;
     padding-right: 0;
@@ -204,7 +216,7 @@ section.success h2 {
 
 #projects .projects-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 35px 5px 0px 5px;
 }
 
 #projects .projects-item .projects-link {
@@ -219,7 +231,7 @@ section.success h2 {
     width: 100%;
     height: 100%;
     opacity: 0;
-/*    background: rgba({{ site.color.background-color-rgb }},.9);*/
+    /*    background: rgba({{ site.color.background-color-rgb }},.9);*/
     background: #{{ site.color.background-color }};
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -256,7 +268,7 @@ section.success h2 {
 
 @media(min-width:767px) {
     #partners .partners-item {
-        margin: 0 0 30px;
+        margin: 35px 5px 0px 5px;
     }
 }
 
@@ -271,7 +283,7 @@ section.success h2 {
 
 #partners .partners-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 35px 5px 0px 5px;
 }
 
 #partners .partners-item .partners-link {
@@ -286,7 +298,7 @@ section.success h2 {
     width: 100%;
     height: 100%;
     opacity: 0;
-/*    background: rgba({{ site.color.background-color-rgb }},.9);*/
+    /*    background: rgba({{ site.color.background-color-rgb }},.9);*/
     background: #{{ site.color.background-color }};
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -319,12 +331,6 @@ section.success h2 {
 
 #partners * {
     z-index: 2;
-}
-
-@media(min-width:767px) {
-    #partners .partners-item {
-        margin: 0 0 30px;
-    }
 }
 
 section.partners {
@@ -539,4 +545,32 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+.breadcrumb {
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+
+.breadcrumb>li {
+    margin: 0px;
+    padding: 15px;
+    padding-left: 0px;
+}
+
+
+.breadcrumb> .first {
+    margin: 0px;
+    padding: 15px;
+}
+
+.breadcrumb>li:hover {
+    background-color: #{{ site.color.secondary-dark }} !important;
+}
+
+.breadcrumb>li>a, a:hover, a:focus, a:active, a.active {
+    outline: 0;
+    color: #{{ site.color.text-color }};
 }
