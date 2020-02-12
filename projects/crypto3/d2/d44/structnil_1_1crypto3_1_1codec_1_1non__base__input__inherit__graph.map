@@ -1,5 +1,0 @@
-<map id="nil::crypto3::codec::non_base_input&lt; Version &gt;" name="nil::crypto3::codec::non_base_input&lt; Version &gt;">
-<area shape="rect" id="node1" title="Thrown when a non&#45;base64 value (0&#45;9, A&#45;F) encountered when decoding. Contains the offending character..." alt="" coords="5,184,197,225"/>
-<area shape="rect" id="node2" href="$d0/d8a/structnil_1_1crypto3_1_1codec_1_1base__decode__error.html" title="Base exception class for all base64 decoding errors." alt="" coords="29,80,174,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="62,5,141,32"/>
-</map>
