@@ -1,14 +1,21 @@
 # Site settings
 email: "nemo@nil.foundation"
-url: "https://crypto3.nil.foundation"
+url: "https://database.nil.foundation"
 description: ""
-areas: "We design & develop cryptography"
+areas: "<div style='float: left; margin-right: 0.5em;'>We design & develop:</div>
+<div id='ticker'>
+    <ul>
+        <li>Data Storage Software</li>
+        <li>Database Management Systems</li>
+        <li>Filesystems</li>
+    </ul>
+</div>"
 meta_author: Mikhail Komarov
 
 titles: 
     - title: "<span style='font-family:Menlo, Courier, monospace'>=nil;</span> Foundation"
       url: "https://nil.foundation"
-    - title: "<span style='font-family:Menlo, Courier, monospace'>=nil;</span> Crypto3"
+    - title: "<span style='font-family:Menlo, Courier, monospace'>=nil;</span> Database"
       url: "#page-top"
 
 
