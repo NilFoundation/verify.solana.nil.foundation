@@ -5,8 +5,8 @@ description: ""
 areas: "<div style='float: left; margin-right: 0.5em;'>We design & develop:</div>
 <div id='ticker'>
     <ul>
-        <li>Data Storage Software</li>
         <li>Database Management Systems</li>
+        <li>Data Storage Software</li>
         <li>Filesystems</li>
     </ul>
 </div>"
