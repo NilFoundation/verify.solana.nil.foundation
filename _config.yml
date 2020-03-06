@@ -14,8 +14,10 @@ meta_author: Mikhail Komarov
 
 titles: 
     - title: "<span style='font-family:Menlo, Courier, monospace'>=nil;</span> Foundation"
+      plain: "=nil; Foundation"
       url: "https://nil.foundation"
     - title: "<span style='font-family:Menlo, Courier, monospace'>=nil;</span> Database"
+      plain: "=nil; Database"
       url: "#page-top"
 
 

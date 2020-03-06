@@ -7,19 +7,13 @@
                 <hr class="star-light">
             </div>
         </div>
-        <div class="row">
+        <div class="row list-group">
             {% for post in site.posts %}
             {% if post.tag == "project" %}
-            <div class="col-sm-3 projects-item panel panel-primary">
-                <div class="panel-heading caption">
-                    <h3 class="caption-content panel-title">{{ post.name }}</h3>
-                </div>
-                <div class="panel-body">
-                    <a href="{{ post.link }}">
-                        <img src="img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                    </a>
-                </div>
-            </div>
+            <a class="list-group-item" href="{{ post.link }}">
+                <h4 class="list-group-item-heading">{{ post.name }}</h4>
+                <p class="list-group-item-text">{{ post.description }}</p>
+            </a>
             {% endif %}
             {% endfor %}
         </div>

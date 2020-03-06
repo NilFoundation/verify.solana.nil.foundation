@@ -19,6 +19,15 @@ a.active {
     color: #{{ site.color.background-color }};
 }
 
+a.list-group-item {
+    color: #888;
+}
+
+a.list-group-item:hover,
+a.list-group-item:active {
+    color: #{{ site.color.text-color }};;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
