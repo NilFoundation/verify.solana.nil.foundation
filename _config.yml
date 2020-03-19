@@ -1,15 +1,13 @@
 # Site settings
 email: "nemo@nil.foundation"
-url: "https://database.nil.foundation"
+url: "https://dbms.nil.foundation"
 description: ""
-areas: "<div style='float: left; margin-right: 0.5em;'>We design & develop:</div>
-<div id='ticker'>
-    <ul>
-        <li>Database Management Systems</li>
-        <li>Data Storage Software</li>
-        <li>Filesystems</li>
-    </ul>
-</div>"
+areas: "<div id='ticker'>
+            <ul>
+                <li>Authenticated Transaction Log</li>
+                <li>Imperative Query Language</li>
+            </ul>
+        </div>"
 meta_author: Mikhail Komarov
 
 titles: 
@@ -18,6 +16,9 @@ titles:
       url: "https://nil.foundation"
     - title: "<span style='font-family:Menlo, Courier, monospace'>=nil;</span> Database"
       plain: "=nil; Database"
+      url: "https://database.nil.foundation"
+    - title: "<span style='font-family:Menlo, Courier, monospace'>=nil;</span> DBMS"
+      plain: "=nil; DBMS"
       url: "#page-top"
 
 
@@ -76,9 +77,9 @@ social:
     url: http://github.com/nilfoundation
 
 # Postal address (add as many lines as necessary)
-#address:
-#  - line: 3481 Melrose Place
-#  - line: Beverly Hills, CA 90210
+address:
+  - line: Artemis House, 67 Forth Street
+  - line: PO Box 2775, Grand Cayman KY1-1111, Cayman Islands
 
 # Credits content
 credits: ''
