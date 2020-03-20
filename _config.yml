@@ -2,7 +2,13 @@
 email: "nemo@nil.foundation"
 url: "https://dbms.nil.foundation"
 description: ""
-areas: "Authenticated Transaction Log Database Management System"
+areas: "
+<div id='ticker'>
+    <ul>
+        <li>Authenticated Transaction Log Database Management System</li>
+        <li>Any DBMS Drop-In Replacement</li>
+    </ul>
+</div>"
 meta_author: Mikhail Komarov
 
 titles: 
