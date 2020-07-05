@@ -204,33 +204,33 @@ section.success h2 {
 }
 
 @media(min-width:767px) {
-    #projects .projects-item {
+    #features .features-item {
         margin: 35px 5px 0px 5px;
     }
 }
 
-#projects .panel {
+#features .panel {
     padding-left: 0;
     padding-right: 0;
 }
 
-#projects .panel-body {
+#features .panel-body {
     padding: 0;
 }
 
-#projects .projects-item {
+#features .features-item {
     right: 0;
     margin: 35px 5px 0px 5px;
 }
 
-#projects .projects-item .projects-link {
+#features .features-item .features-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#projects .projects-item .projects-link .caption {
+#features .features-item .features-link .caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -242,11 +242,11 @@ section.success h2 {
     transition: all ease .5s;
 }
 
-#projects .projects-item .projects-link .caption:hover {
+#features .features-item .features-link .caption:hover {
     opacity: 1;
 }
 
-#projects .projects-item .projects-link .caption .caption-content {
+#features .features-item .features-link .caption .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -257,16 +257,16 @@ section.success h2 {
     color: #{{ site.color.text-color }};
 }
 
-#projects .projects-item .projects-link .caption .caption-content i {
+#features .features-item .features-link .caption .caption-content i {
     margin-top: -12px;
 }
 
-#projects .projects-item .projects-link .caption .caption-content h3,
-#projects .projects-item .projects-link .caption .caption-content h4 {
+#features .features-item .features-link .caption .caption-content h3,
+#features .features-item .features-link .caption .caption-content h4 {
     margin: 0;
 }
 
-#projects * {
+#features * {
     z-index: 2;
 }
 
@@ -481,7 +481,7 @@ footer .footer-below {
     outline: 0;
 }
 
-.projects-modal .modal-content {
+.features-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -492,20 +492,20 @@ footer .footer-below {
     box-shadow: none;
 }
 
-.projects-modal .modal-content h2 {
+.features-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
 }
 
-.projects-modal .modal-content img {
+.features-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.projects-modal .modal-content .item-details {
+.features-modal .modal-content .item-details {
     margin: 30px 0;
 }
 
-.projects-modal .close-modal {
+.features-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -515,11 +515,11 @@ footer .footer-below {
     cursor: pointer;
 }
 
-.projects-modal .close-modal:hover {
+.features-modal .close-modal:hover {
     opacity: .3;
 }
 
-.projects-modal .close-modal .lr {
+.features-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -530,7 +530,7 @@ footer .footer-below {
     transform: rotate(45deg);
 }
 
-.projects-modal .close-modal .lr .rl {
+.features-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
