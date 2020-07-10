@@ -6,7 +6,7 @@ alt: image-alt
 name: P2P Validator
 link: https://p2p.org
 category: Partner 
-tag: feature
+tag: partner
 description: 
 
 ---
