@@ -1,24 +1,22 @@
 # Site settings
 email: "nemo@nil.foundation"
-url: "https://dbms.nil.foundation"
+url: "https://filecoin.nil.foundation"
 description: ""
+subtitle: "<div style='float: left; margin-right: 0.5em;'>Our Filecoin-related:</div>"
 areas: 
-    - "Database You Will Never Change."
-    - "Rewrite Your Database."
-    - "Database As A Framework."
-
+    - "Activites"
+    - "Services"
+    - "Projects"
 meta_author: Mikhail Komarov
 
 titles: 
     - title: "<span style='font-family:Menlo, Courier, monospace'>=nil;</span> Foundation"
       plain: "=nil; Foundation"
       url: "https://nil.foundation"
-    - title: "<span style='font-family:Menlo, Courier, monospace'>=nil;</span> Database"
-      plain: "=nil; Database"
-      url: "https://database.nil.foundation"
-    - title: "<span style='font-family:Menlo, Courier, monospace'>=nil;</span> DBMS"
-      plain: "=nil; DBMS"
+    - title: "Filecoin"
+      plain: "Filecoin"
       url: "#page-top"
+
 
 
 # Google webmaster tools
@@ -66,6 +64,8 @@ footer:
 social:
   - title: twitter
     url: https://twitter.com/nil_foundation
+  - title: paper-plane
+    url: https://t.me/nilcrypto3
     #  - title: facebook
     #    url:
     #  - title: stack-overflow

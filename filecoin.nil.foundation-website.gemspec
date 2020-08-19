@@ -1,12 +1,12 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name                    = "database-nilfoundation-website"
-  spec.version                 = "1.0.1"
+  spec.name                    = "crypto3.nilfoundation-website"
+  spec.version                 = "1.0.0"
   spec.authors                 = ["Mikhail Komarov"]
 
-  spec.summary                 = %q{=nil; Database Website}
-  spec.homepage                = "https://github.com/nemothenoone/database.nil.foundation"
+  spec.summary                 = %q{=nil; Crypto3 Website}
+  spec.homepage                = "https://github.com/nemothenoone/crypto3.nil.foundation"
   spec.licenses                = ["MIT"]
 
   spec.metadata["plugin_type"] = "theme"
