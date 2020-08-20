@@ -2,7 +2,7 @@
 layout: default
 date: 2020-06-01
 name: <span style='font-family:Menlo, Courier, monospace'>=nil;</span> Crypto3's Filecoin Prover
-link: 
+link: "#about"
 category: 
 img: filecoin.png
 tag: project
