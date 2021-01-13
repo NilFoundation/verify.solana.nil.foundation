@@ -49,7 +49,7 @@
                     </p>
                 </div>
                 <div class="jumbotron intro-projects">
-                    <div class="list-group">
+                    <div class="list-group page-scroll">
                         {% for post in site.posts %}
                         {% if post.tag == "project" and post == site.posts[0] %}
                         <a class="list-group-item" href="{{ post.link }}">
