@@ -4,6 +4,9 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/js/bootstrap.min.js" }}"></script>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+
 <!-- Plugin JavaScript -->
 <script src="{{ "/js/jquery.easing.min.js" }}"></script>
 <script src="{{ "/js/classie.js" }}"></script>
@@ -23,25 +26,31 @@
 <!-- Text Scrambler -->
 <script src="{{ "/js/scramble.js" }}"></script>
 <script>
-    const phrases = [
-        {% for item in site.areas %}
-        {% if site.areas.last == item %}'{{ item }}'{% else %}'{{ item }}',{% endif %}
-        {% endfor %}
-    ];
+    $('.text-scrmb').each(function(index, current) {
+            const fx = new TextScramble(current);
 
-    const el = document.querySelector('.text-scrmb');
-    const fx = new TextScramble(el);
+            phrases = [];
 
-    let counter = 0;
-    const next = () => {
-        fx.setText(phrases[counter]).then(() => {
-            setTimeout(next, 1600);
+            $(this).find('.text-scrmb-element').each(function (jindex, element) {
+                    phrases[jindex] = $(this).text();
+                });
+
+            let counter = 0;
+            const next = () => {
+                    fx.setText(phrases[counter]).then(() => {
+                            setTimeout(next, 1600);
+                        });
+                    counter = (counter + 1) % phrases.length;
+                };
+
+            next();
+
         });
-        counter = (counter + 1) % phrases.length;
-    };
-
-    next();
 </script>
+
+<!-- Walkthrough Logic -->
+
+<script src="{{ "/js/walkthrough.js" }}"></script>
 
 {% if site.contact == "disqus" %}
 <!-- Disqus Stuff -->

@@ -1,12 +1,12 @@
 # Site settings
 email: "nemo@nil.foundation"
-url: "https://mina.nil.foundation"
+url: "https://verify.mina.nil.foundation"
 description: ""
-subtitle: "<div style='float: left; margin-right: 0.5em;'>Our Mina Protocol-related:</div>"
 areas: 
-    - "Activites"
-    - "Services"
-    - "Projects"
+    - "Core to the Mina-Ethereum bridge"
+    - "Provable computations made possible on Ethereum by Mina"
+    - "WMINA. Anyone?"
+
 meta_author: Mikhail Komarov
 
 titles: 
@@ -15,8 +15,10 @@ titles:
       url: "https://nil.foundation"
     - title: "Mina Protocol"
       plain: "Mina Protocol"
-      url: "#page-top"
-
+      url: "https://mina.nil.foundation"
+    - title: "In-EVM Mina State Verification"
+      plain: "In-EVM Mina State Verification"
+      url: "https://verify.mina.nil.foundation"
 
 
 # Google webmaster tools
@@ -64,6 +66,8 @@ footer:
 social:
   - title: twitter
     url: https://twitter.com/nil_foundation
+  - title: linkedin
+    url: https://www.linkedin.com/company/nil-foundation
   - title: paper-plane
     url: https://t.me/nilcrypto3
     #  - title: facebook
