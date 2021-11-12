@@ -16,7 +16,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.background-color }};
+    color: #{{ site.color.primary }};
 }
 
 a.list-group-item {
