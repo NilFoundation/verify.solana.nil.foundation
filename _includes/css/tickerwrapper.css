@@ -1,0 +1,30 @@
+.tickerwrapper {
+    position: relative;
+    top: 30px;
+    left: 0%;
+    background: #{{ site.color.background-color }};
+    width: 99.9%;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.tickerwrapper ul.list {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.tickerwrapper ul.list.cloned {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.tickerwrapper ul.list li {
+    float: left;
+    padding-left: 0px;
+}

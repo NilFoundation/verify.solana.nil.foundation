@@ -2,3 +2,4 @@
 {% include css/custom.bootstrap.css %}
 {% include css/walkthrough.css %}
 {% include css/timeline.css %}
+{% include css/tickerwrapper.css %}
