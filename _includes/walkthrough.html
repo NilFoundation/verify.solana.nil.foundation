@@ -2,32 +2,44 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="skills">
-                        <div class="text-scrmb">{{ site.subtitle }}</div>
-                    </span>
-                    <br>
-                    <p class="page-scroll">
-                    </p>
-                </div>
-            </div>
             <div class="upform">
                 <form>
                     <div class="upform-header"></div>
                     <div class="upform-main">
                         <div class="input-block">
-                            <div class="label">Q1.</div>
+                            <div class="intro-text">
+                                <span class="skills">
+                                    Alright. Let's walk you through the Mina state proof in-EVM verification process.
+                                </span>
+                                <br>
+                                <br>
+                            </div>
                             <div class="input-control">
                                 <input id="toggle-on-q1" class="toggle toggle-left" name="q1" value="yes" type="radio">
-                                <label for="toggle-on-q1" class="btn btn-walkthrough"><span>A</span> Yes</label>
+                                <label for="toggle-on-q1" class="btn
+                                                         btn-walkthrough"><span>A</span> Okay.</label>
                                 <input id="toggle-off-q1" class="toggle toggle-right" name="q1" value="no" type="radio">
-                                <label for="toggle-off-q1" class="btn btn-walkthrough"><span>B</span> No</label>
+                                <label for="toggle-off-q1" class="btn
+                                                          btn-walkthrough"><span>B</span> No, I'm scared.</label>
                             </div>
                         </div>
 
                         <div class="input-block">
-                            <div class="label">Q2.</div>
+                            <div class="label">First of all, we need Mina's state proof. 
+                                When <a href="https://twitter.com/chainsafeth">Chainsafe</a> 
+                                finishes their <br><a href="https://github.com/ChainSafe/mina-rs">
+                                    Mina protocol implementation</a>, it will be
+                                possible to retrieve it automatically <br>
+                                right in browser.
+                                <br>
+                                But for now we got the sample of it for you
+                                in here already.</div>
+                            <div class="input-control">
+                                <input type="text" class="required"
+                                autocomplete="off" 
+                                value="https://raw.githubusercontent.com/NilFoundation/evm-mina-verification/master/share/mina/genesis_proof_ef3659d87a794d5c0159273bc7e596fe7a92b766a0aeb4be3437f582e716697a"
+                                placeholder="S-Expr-formatted Mina state proof (or a link)(usually starts with '((statement((proof_state(...'">
+                            </div>
                             <div class="input-control">
                                 <input id="toggle-on-q2" class="toggle toggle-left" name="q2" value="yes" type="radio">
                                 <label for="toggle-on-q2" class="btn btn-walkthrough"><span>A</span> Yes</label>

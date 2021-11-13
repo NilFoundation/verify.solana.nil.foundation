@@ -1,4 +1,3 @@
-/* PAGE & INPUT STYLING */
 .btn-walkthrough {
     border: 1px solid #{{ site.color.text-color }};
     display: inline-block;
@@ -67,7 +66,6 @@ input[type="radio"].toggle:checked + label:after {
 /* UPFORM STYLE STARTS*/
 .upform input:focus, select:focus, textarea:focus, button:focus {
     outline: none;
-    border-color: blue !important;
 }
 .upform input {
     background-color: #{{ site.color.background-color }} !important;
@@ -82,7 +80,6 @@ input[type="radio"].toggle:checked + label:after {
     color: #{{ site.color.text-color }};
 }
 .upform {
-    font-family: 'Open Sans', sans-serif;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */
@@ -99,12 +96,14 @@ input[type="radio"].toggle:checked + label:after {
 }
 .upform .upform-main .input-block {
     padding: 30px 0;
+    padding-bottom: 50%;
     opacity: 0.25;
     cursor: default;
 }
 .upform .upform-main .input-block .label {
     display: block;
-    font-size: 1.1em;
+    font-size: 1.75em;
+    font-weight: 300;
     line-height: 30px;
 }
 .upform .upform-main .input-block .input-control {
@@ -131,4 +130,3 @@ input[type="radio"].toggle:checked + label:after {
     font-weight: bold;
     padding: 5px 20px;
 }
-/* UPFORM STYLE ENDS*/
