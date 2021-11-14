@@ -68,15 +68,18 @@ input[type="radio"].toggle:checked + label:after {
     outline: none;
 }
 .upform input {
-    background-color: #{{ site.color.background-color }} !important;
+    background: transparent;
+    border: none;
     color: #{{ site.color.text-color }};
 }
 .upform select {
-    background-color: #{{ site.color.background-color }} !important;
+    background: transparent;
+    border: none;
     color: #{{ site.color.text-color }};
 }
 .upform textarea {
-    background-color: #{{ site.color.background-color }} !important;
+    background: transparent;
+    border: none;
     color: #{{ site.color.text-color }};
 }
 .upform {
