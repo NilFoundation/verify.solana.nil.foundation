@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['add_5fchild_1',['add_child',['../df/da3/structnil_1_1sexp.html#ae1e9f30b3fb371a7c08ca8427dbea886',1,'nil::sexp::add_child(sexp sexp) -&gt; void'],['../df/da3/structnil_1_1sexp.html#a8560a47dade6667e9ff6fb18116fb31a',1,'nil::sexp::add_child(const std::string &amp;str) -&gt; void']]],
-  ['add_5fchild_5funescaped_2',['add_child_unescaped',['../df/da3/structnil_1_1sexp.html#ad2bef5cd7e3f581cff30f0a3a0c4d7ef',1,'nil::sexp']]],
-  ['add_5fexpression_3',['add_expression',['../df/da3/structnil_1_1sexp.html#adf363744264f9cf34dfb494a9db92570',1,'nil::sexp']]],
-  ['arguments_4',['arguments',['../df/da3/structnil_1_1sexp.html#ad326cfa7ce4f27f351b82acf6718161a',1,'nil::sexp']]]
+  ['authorized_5fvoter_1',['authorized_voter',['../d5/dab/structvote__state.html#a503bb7447b69e6c834995b692a53195d',1,'vote_state']]],
+  ['authorized_5fvoter_5fepoch_2',['authorized_voter_epoch',['../d5/dab/structvote__state.html#ab83fc7b7b7c70088cddd94d00ea7a40f',1,'vote_state']]],
+  ['authorized_5fwithdrawer_3',['authorized_withdrawer',['../d5/dab/structvote__state.html#ab5868f1d14eb50fc7af946664975f6fa',1,'vote_state']]]
 ];

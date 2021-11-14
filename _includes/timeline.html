@@ -13,17 +13,17 @@
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4 class="timeline-title">Initial research</h4>
-                        <p><small class="text-muted"><i class="fa fa-fw fa-clock-o"></i> April 2 - September 22 2021</small></p>
+                        <p><small class="text-muted"><i class="fa fa-fw
+                                fa-clock-o"></i> July 10 - September 13 2021</small></p>
                     </div>
                     <div class="timeline-body">
                         <p>
                         <span style='font-family:Menlo, Courier,
-                        monospace'>=nil;</span> Foundation, Mina Foundation
-                    and Ethereum Foundation initiated the collaborative research
-                    on making in-EVM verification of Mina Protocol's state proof
-                    - a core of every Mina-Ethereum bridge application - possible. 
-                    Read some details on that in related 
-                    <a href="https://blog.nil.foundation/2021/09/30/mina-ethereum-bridge.html">
+                        monospace'>=nil;</span> Foundation and Solana Labs started
+                    the initial conversation regarding creating a more trustless
+                    Solana-Ethereum bridging mechanism core. 
+                    Some details about that are available in related 
+                    <a href="https://blog.nil.foundation/2021/10/11/solana-ethereum-bridge.html">
                         blog post </a>
                         </p>
                     </div>
@@ -34,16 +34,18 @@
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4 class="timeline-title">Detailed Solution Description Development</h4>
-                        <p><small class="text-muted"><i class="fa fa-fw fa-clock-o"></i> September 22 - November 22 2021</small></p>
+                        <p><small class="text-muted"><i class="fa fa-fw
+                                fa-clock-o"></i> September 13 - November 15 2021</small></p>
                     </div>
                     <div class="timeline-body">
                         <p>
                         <span style='font-family:Menlo, Courier, monospace'>=nil;</span> Foundation's 
                         <a href="https://crypto3.nil.foundation">Crypto3</a>
-                        team got to developing Mina Protocol's state proof
-                        in-EVM verification detailed solution description
-                        development. <a href="https://verify.mina.nil.foundation/docs">Read
-                            the documentaton</a> to find out about results.
+                        team developed Solana's 'Light-Client' state proof
+                        generation and verification protocol description. 
+                        <a
+                            href="https://verify.solana.nil.foundation/docs">Documentation</a>
+                        helps to figure out what is what.
                         </p>
                     </div>
                 </div>
@@ -54,25 +56,21 @@
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4 class="timeline-title">Auxiliary Proof Generation Development</h4>
+                        <h4 class="timeline-title">'Light-Client' State Proof Generation Development</h4>
                         <p><small class="text-muted">
                             <i class="fa fa-fw fa-clock-o"></i>
                             Q4 2021 - Q1 2022</small></p>
                     </div>
                     <div class="timeline-body">
                         <p>
-                        Mina Protocol's state proof is too expensive to be
-                        verified on Ethereum directly. So it requires some
-                        preprocessing. In particular, a part of Pickles proof 
-                        requires to be wrapped with one more proof, proof of 
-                        successful verification of which could be considered as
-                        succesful verification of initial proof on Ethereum.
+                        Solana's 'Light-Client' state is too huge to be verified
+                        on Ethereum directly, so it has to be packed into a
+                        proof, which would be easier to verify.
                         To make this possible, <span style='font-family:Menlo,
                         Courier, monospace'>=nil;</span> Foundation got to
-                    developing such an auxiliary proof generator
-                    development. Try what was accomplished by 
-                    <a href="https://verify.mina.nil.foundation/walkthrough">walking
-                        through the in-browser demo</a>.
+                    developing such a proof generator. Try what is already done
+                    with <a href="https://verify.solana.nil.foundation/walkthrough">
+                        an interactive in-browser demo</a>.
                         </p>
                     </div>
                 </div>
@@ -83,17 +81,19 @@
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4 class="timeline-title">In-EVM Proof Verification Development</h4>
+                        <h4 class="timeline-title">In-EVM 'Light-Client' State Proof Verification Development</h4>
                         <p><small class="text-muted">
                             <i class="fa fa-fw fa-clock-o"></i>
                             Q4 2021 - Q1 2022</small></p>
                     </div>
                     <div class="timeline-body">
                         <p>
-                        Mina Protocol's state proof should be verified on
+                        Solana's 'Light-Client' state proof should be verified on
                         Ethereum's side to make sure it proves the actual valid 
-                        Mina's data. That is why in-EVM Mina's state proof 
-                        verification mechanism is required to be implemented.</p>
+                        Solana's cluster data. It is also required to prove a
+                        particular proof belongs to the proper state proof
+                        sequence, originating from the very beggining of
+                        Solana's cluster commit log.</p>
                     </div>
                 </div>
             </li>
@@ -106,8 +106,8 @@
                             <i class="fa fa-fw fa-clock-o"></i>Q1 2022</small></p>
                     </div>
                     <div class="timeline-body">
-                        <p>Does anyone think an independent audit of such a crucial 
-                        thing is required to be done? We think that as well. </p>
+                        <p>An independent audit is deefinitely required. We're
+                        looking forward to that. </p>
                     </div>
                 </div>
             </li>
@@ -120,10 +120,12 @@
                             <i class="fa fa-fw fa-clock-o"></i>Q2 2022</small></p>
                     </div>
                     <div class="timeline-body">
-                        <p>At this stage Mina Protocol's state in-EVM
-                        verification can be considered ready for the usage.
-                        Applications willing to integrate such a bridge are
-                        welcomed.</p>
+                        <p>At this stage Solana's 'Light-Client' in-EVM proof
+                        verification mechanism can be considered ready for
+                        being integrated into various applications: wallets,
+                        games etc. You will be welcomed to <a href="#contact">
+                            drop us a line</a> about the integration if trustless 
+                        bridging core to your application!</p>
                     </div>
                 </div>
             </li>

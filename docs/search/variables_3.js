@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['value_77',['value',['../df/da3/structnil_1_1sexp.html#af8413c8f61e9a2709441f9ce325c9448',1,'nil::sexp']]]
+  ['last_5ftimestamp_57',['last_timestamp',['../d5/dab/structvote__state.html#a4a891e13bac255676d4463046ffa4578',1,'vote_state']]]
 ];

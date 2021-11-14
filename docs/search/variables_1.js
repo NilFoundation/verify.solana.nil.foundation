@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['kind_75',['kind',['../df/da3/structnil_1_1sexp.html#a6005c9f580f2097721e271d47fc9a9fb',1,'nil::sexp']]]
+  ['commission_54',['commission',['../d5/dab/structvote__state.html#ac2ef09c8343627c819bd9854a8f7f82d',1,'vote_state']]],
+  ['confirmation_5fcount_55',['confirmation_count',['../d2/d0d/structlockout.html#a28048a39869a97dcee3c23d5d13fafc2',1,'lockout']]]
 ];

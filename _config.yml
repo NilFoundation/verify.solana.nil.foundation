@@ -1,11 +1,10 @@
 # Site settings
 email: "nemo@nil.foundation"
-url: "https://verify.mina.nil.foundation"
+url: "https://verify.solana.nil.foundation"
 description: ""
 areas: 
-    - "Core to the Mina-Ethereum bridge"
-    - "Provable computations made possible on Ethereum by Mina"
-    - "WMINA. Anyone?"
+    - "Core to the trustless Solana-Ethereum bridge."
+    - "Bridge with plain cryptography. No \"tokens\". No \"validators\". No \"relays\"."
 
 meta_author: Mikhail Komarov
 
@@ -13,12 +12,12 @@ titles:
     - title: "<span style='font-family:Menlo, Courier, monospace'>=nil;</span> Foundation"
       plain: "=nil; Foundation"
       url: "https://nil.foundation"
-    - title: "Mina Protocol"
-      plain: "Mina Protocol"
-      url: "https://mina.nil.foundation"
-    - title: "In-EVM Mina State Verification"
-      plain: "In-EVM Mina State Verification"
-      url: "https://verify.mina.nil.foundation"
+    - title: "Solana"
+      plain: "Solana"
+      url: "https://solana.nil.foundation"
+    - title: "In-EVM Solana State Verification"
+      plain: "In-EVM Solana State Verification"
+      url: "https://verify.solana.nil.foundation"
 
 
 # Google webmaster tools

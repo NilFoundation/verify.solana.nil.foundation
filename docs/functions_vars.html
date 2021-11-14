@@ -9,12 +9,19 @@
     <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
     <meta name="generator" content="Doxygen 1.9.1"/>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <title>Mina Protocol In-EVM State Verification</title>
+    <title>Solana In-EVM State Verification</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
     <script type="text/javascript" src="dynsections.js"></script>
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX","output/HTML-CSS"],
+    });
+    </script>
+    <script type="text/javascript" async="async" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'/>
     <link rel="stylesheet" href="bootstrap.min.css"/>
@@ -51,7 +58,7 @@
                     monospace">=nil;</span> Crypto3</a>
                 </li>
                 <li>
-                    <a href="#page-top"><span style="font-family:Menlo, Courier, monospace">=nil;</span> Mina Protocol In-EVM State Verification
+                    <a href="#page-top"><span style="font-family:Menlo, Courier, monospace">=nil;</span> Solana In-EVM State Verification
                         </a>
                 </li>
             </ol>
@@ -98,20 +105,45 @@ $(function() {
 
 <div class="contents">
 &#160;<ul>
-<li>e
-: <a class="el" href="df/da3/structnil_1_1sexp.html#ace2b1c3cddd19685bd5c0813768e7061">nil::sexp</a>
+<li>authorized_voter
+: <a class="el" href="d5/dab/structvote__state.html#a503bb7447b69e6c834995b692a53195d">vote_state</a>
 </li>
-<li>expr
-: <a class="el" href="d2/d57/structnil_1_1sexp__argument__iterator.html#add75887705ebdd3085fd2c2225104002">nil::sexp_argument_iterator</a>
+<li>authorized_voter_epoch
+: <a class="el" href="d5/dab/structvote__state.html#ab83fc7b7b7c70088cddd94d00ea7a40f">vote_state</a>
 </li>
-<li>kind
-: <a class="el" href="df/da3/structnil_1_1sexp.html#a6005c9f580f2097721e271d47fc9a9fb">nil::sexp</a>
+<li>authorized_withdrawer
+: <a class="el" href="d5/dab/structvote__state.html#ab5868f1d14eb50fc7af946664975f6fa">vote_state</a>
 </li>
-<li>str
-: <a class="el" href="df/da3/structnil_1_1sexp.html#a8bacfc99cf1a61ae39420e5beaf1c43a">nil::sexp</a>
+<li>commission
+: <a class="el" href="d5/dab/structvote__state.html#ac2ef09c8343627c819bd9854a8f7f82d">vote_state</a>
 </li>
-<li>value
-: <a class="el" href="df/da3/structnil_1_1sexp.html#af8413c8f61e9a2709441f9ce325c9448">nil::sexp</a>
+<li>confirmation_count
+: <a class="el" href="d2/d0d/structlockout.html#a28048a39869a97dcee3c23d5d13fafc2">lockout</a>
+</li>
+<li>epoch_credits
+: <a class="el" href="d5/dab/structvote__state.html#a70d680addfd0e1f74f17b058b2e2920e">vote_state</a>
+</li>
+<li>last_timestamp
+: <a class="el" href="d5/dab/structvote__state.html#a4a891e13bac255676d4463046ffa4578">vote_state</a>
+</li>
+<li>node_pubkey
+: <a class="el" href="d5/dab/structvote__state.html#a906e3cb10f7841df110b623c7b6dfa47">vote_state</a>
+</li>
+<li>prior_voters
+: <a class="el" href="d5/dab/structvote__state.html#a2c7950e9890b25c5a71f5e7e53de0881">vote_state</a>
+</li>
+<li>root_slot
+: <a class="el" href="d5/dab/structvote__state.html#aec910d8c430f4053d2cfb4c9d4c56349">vote_state</a>
+</li>
+<li>slot
+: <a class="el" href="dc/d1b/structblock__timestamp.html#a557280e72d953935338293f4596e0354">block_timestamp</a>
+, <a class="el" href="d2/d0d/structlockout.html#a9743a857c8df247e2e76ebefb1eb4318">lockout</a>
+</li>
+<li>timestamp
+: <a class="el" href="dc/d1b/structblock__timestamp.html#a5b6514a4d7cb337da487de215064dcb0">block_timestamp</a>
+</li>
+<li>votes
+: <a class="el" href="d5/dab/structvote__state.html#a6824ea143ecbdb65a1a0d0dd1713d6c6">vote_state</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -124,7 +156,7 @@ $(function() {
 </div>
 <hr class="footer"/>
 <address class="footer"><!--<small>
-Generated on Fri Nov 12 2021 00:04:11 for Mina Protocol In-EVM State Verification by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 14 2021 21:25:02 for Solana In-EVM State Verification by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.9.1
 </small>--></address>

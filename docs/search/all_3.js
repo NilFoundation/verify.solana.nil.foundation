@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['child_5fcount_6',['child_count',['../df/da3/structnil_1_1sexp.html#aaf0fdc8d01c8ec2f6b5351c05acbf5ec',1,'nil::sexp']]],
-  ['const_5fiterator_7',['const_iterator',['../d2/d57/structnil_1_1sexp__argument__iterator.html#ae1a5afab438b929661c817a00b7c89ba',1,'nil::sexp_argument_iterator']]],
-  ['create_5fpath_8',['create_path',['../df/da3/structnil_1_1sexp.html#aec87e79f9758ba542d27c7b778b34894',1,'nil::sexp::create_path(std::vector&lt; std::string &gt; const &amp;path) -&gt; sexp &amp;'],['../df/da3/structnil_1_1sexp.html#a3d8953237dbec1b675ae3d9aee413dff',1,'nil::sexp::create_path(std::string const &amp;path) -&gt; sexp &amp;']]]
+  ['circuit_20definition_5',['Circuit Definition',['../d8/daa/circuit_index.html',1,'']]],
+  ['commission_6',['commission',['../d5/dab/structvote__state.html#ac2ef09c8343627c819bd9854a8f7f82d',1,'vote_state']]],
+  ['confirmation_5fcount_7',['confirmation_count',['../d2/d0d/structlockout.html#a28048a39869a97dcee3c23d5d13fafc2',1,'lockout']]],
+  ['correct_20validator_20set_20proof_20circuit_8',['Correct Validator Set Proof Circuit',['../d6/d87/circuit_validator.html',1,'circuit_index']]],
+  ['index_2emd_9',['index.md',['../de/de0/circuit_2index_8md.html',1,'']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['e_73',['e',['../df/da3/structnil_1_1sexp.html#ace2b1c3cddd19685bd5c0813768e7061',1,'nil::sexp']]],
-  ['expr_74',['expr',['../d2/d57/structnil_1_1sexp__argument__iterator.html#add75887705ebdd3085fd2c2225104002',1,'nil::sexp_argument_iterator']]]
+  ['authorized_5fvoter_51',['authorized_voter',['../d5/dab/structvote__state.html#a503bb7447b69e6c834995b692a53195d',1,'vote_state']]],
+  ['authorized_5fvoter_5fepoch_52',['authorized_voter_epoch',['../d5/dab/structvote__state.html#ab83fc7b7b7c70088cddd94d00ea7a40f',1,'vote_state']]],
+  ['authorized_5fwithdrawer_53',['authorized_withdrawer',['../d5/dab/structvote__state.html#ab5868f1d14eb50fc7af946664975f6fa',1,'vote_state']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['iterator_79',['iterator',['../d2/d57/structnil_1_1sexp__argument__iterator.html#ad9d9041c58ff28c1d6bd33db21402039',1,'nil::sexp_argument_iterator']]]
+  ['private_5fkey_5ftype_65',['private_key_type',['../d5/dab/structvote__state.html#afe3ce14fa4c8bdccdcceb8ebf788c607',1,'vote_state']]],
+  ['public_5fkey_5ftype_66',['public_key_type',['../d5/dab/structvote__state.html#a3f0a3f5ae0462823e3b40458e086db89',1,'vote_state']]]
 ];
